@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyTaxi</string>
+
+    <!-- Main -->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <!-- LocationNotification -->
+    <string name="tracking_location">Searching for GPS</string>
+    <string name="your_location">MyTaxi</string>
+    <string name="location_tracker">Searching for GPS</string>
+    <string name="location_tracker_description">This channel is used to show notification when tracking location.</string>
+
+    <!-- Token -->
+    <string name="mapbox_access_token">pk.eyJ1IjoiZWxiZWthemltam9ub3YiLCJhIjoiY2xmODF5cWp5MW5hZDN6bnQ1MGo3eW91ZyJ9.bp02XhrxRYz-ZCUVM7L5kw</string>
+    <string name="welcome">Xayrli Kun</string>
+</resources>

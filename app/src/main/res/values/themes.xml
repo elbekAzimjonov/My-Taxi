@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyTaxi" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryDark">@color/statusBarDG</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/textMulti</item>
+    </style>
+</resources>
