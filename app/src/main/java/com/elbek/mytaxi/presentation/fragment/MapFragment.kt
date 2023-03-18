@@ -73,7 +73,7 @@ class MapFragment() : Fragment(), OnMapReadyCallback {
         binding.minus.setOnClickListener {
             mMap.animateCamera(CameraUpdateFactory.zoomOut())
         }
-        binding.mylocation.setOnClickListener {
+        binding.myLocation.setOnClickListener {
             if (liveLocation.value != null) {
                 setUserLocationMarker(liveLocation.value!!, 16f)
             } else {
@@ -92,6 +92,7 @@ class MapFragment() : Fragment(), OnMapReadyCallback {
         mMap = p0
         mMap.uiSettings.apply {
             isCompassEnabled = false
+
         }
     }
 
